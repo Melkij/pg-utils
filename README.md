@@ -12,7 +12,7 @@ List all tables which do not have UNIQUE CONSTRAINTs.
 
 ### create_db_activity_view.sql
 
-Creates more convenient VIEW around pg_stat_activity pg_catalog view. 	
+Creates more convenient VIEW around pg_stat_activity pg_catalog view.
 Shows all non idle queries running more then 100ms (optionally 500ms - see a comment in view DDL).
 Requires track_activities=enabled in postgresql.conf to display processes states correctly. 
 
